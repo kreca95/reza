@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reza.API", "Reza\Reza.API.csproj", "{E93A9592-E9C6-4429-8453-8A0EEC47C611}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1EBE3494-8FB7-4891-A455-546DDDD3A7D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reza.Core", "..\Reza.Core\Reza.Core.csproj", "{8452B9F8-DE39-4576-B4DF-9E72AED48985}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reza.Application", "..\Reza.Application\Reza.Application.csproj", "{931BE936-CC6B-4322-9E79-780E75773811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reza.Infrastracture", "..\Reza.Infrastracture\Reza.Infrastracture.csproj", "{7ECD979A-A55C-4943-921F-C058D892AEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reza.Infrastructure.Mongo", "..\Reza.Infrastructure.Mongo\Reza.Infrastructure.Mongo.csproj", "{56631B99-2BF3-4752-80EA-90B49A018694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E93A9592-E9C6-4429-8453-8A0EEC47C611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93A9592-E9C6-4429-8453-8A0EEC47C611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93A9592-E9C6-4429-8453-8A0EEC47C611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93A9592-E9C6-4429-8453-8A0EEC47C611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBE3494-8FB7-4891-A455-546DDDD3A7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE3494-8FB7-4891-A455-546DDDD3A7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE3494-8FB7-4891-A455-546DDDD3A7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE3494-8FB7-4891-A455-546DDDD3A7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8452B9F8-DE39-4576-B4DF-9E72AED48985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8452B9F8-DE39-4576-B4DF-9E72AED48985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8452B9F8-DE39-4576-B4DF-9E72AED48985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8452B9F8-DE39-4576-B4DF-9E72AED48985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931BE936-CC6B-4322-9E79-780E75773811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931BE936-CC6B-4322-9E79-780E75773811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931BE936-CC6B-4322-9E79-780E75773811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931BE936-CC6B-4322-9E79-780E75773811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECD979A-A55C-4943-921F-C058D892AEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECD979A-A55C-4943-921F-C058D892AEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECD979A-A55C-4943-921F-C058D892AEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECD979A-A55C-4943-921F-C058D892AEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56631B99-2BF3-4752-80EA-90B49A018694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56631B99-2BF3-4752-80EA-90B49A018694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56631B99-2BF3-4752-80EA-90B49A018694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56631B99-2BF3-4752-80EA-90B49A018694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {173B1E28-CA56-4B6E-8EBF-0E6D4B005323}
+	EndGlobalSection
+EndGlobal

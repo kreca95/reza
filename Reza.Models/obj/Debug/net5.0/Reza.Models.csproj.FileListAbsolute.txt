@@ -1,0 +1,12 @@
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\bin\Debug\net5.0\Reza.Models.deps.json
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\bin\Debug\net5.0\Reza.Models.dll
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\bin\Debug\net5.0\ref\Reza.Models.dll
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\bin\Debug\net5.0\Reza.Models.pdb
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.csproj.AssemblyReference.cache
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.AssemblyInfoInputs.cache
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.AssemblyInfo.cs
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.csproj.CoreCompileInputs.cache
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.dll
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\ref\Reza.Models.dll
+C:\Users\KresimirSutalo\source\repos\Reza\Reza.Models\obj\Debug\net5.0\Reza.Models.pdb

@@ -1,0 +1,32 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Your_password123
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 5434
+      target: 1433
+    volumes:
+    - myapp:/var/opt/mssql:rw
+  reza:
+    build:
+      context: C:\Users\KresimirSutalo\source\repos\Reza
+      dockerfile: Reza/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: reza
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - published: 5001
+      target: 443
+    - target: 443
+    volumes:
+    - C:\Users\KresimirSutalo\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'
+volumes:
+  myapp:
+    driver: local
